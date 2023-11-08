@@ -8,4 +8,11 @@
 // * Use a function to display the result
 // * Use the "{:?}" token in the println macro to display the result
 
-fn main() {}
+fn main() {
+
+    addNUM(5,4);
+}
+fn addNUM(one :usize,two:usize){
+    let result=one+two;
+    println!("Result {:?}",result);
+}

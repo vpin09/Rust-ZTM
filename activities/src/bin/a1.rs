@@ -9,7 +9,12 @@
 // * Use the println macro to display messages to the terminal
 
 fn main() {
-
-
-    ////testing github
+displayFirstName();
+    displayLastname();
+}
+fn displayFirstName(){
+    println!("Vipin");
+}
+fn displayLastname(){
+    println!("Saini");
 }
